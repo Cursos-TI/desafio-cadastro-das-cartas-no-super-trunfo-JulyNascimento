@@ -17,13 +17,13 @@ int main(){
     int npturisticos2 = 35;
 
 
-    printf("Qual é o estado 1: ");
+    printf("Qual é o estado1: ");
     scanf("%c", &estado1);
-    printf("O estado 1 é: %c\n", estado1);
+    printf("O estado1 é: %c\n", estado1);
 
-    printf("Qual é o estado 2: ");
+    printf("Qual é o estado2: ");
     scanf("%c", &estado2);
-    printf("O estado 2 é: %c\n", estado2);
+    printf("O estado2 é: %c\n", estado2);
 
     printf("Qual o Código da carta 1: ");
     scanf("%s", codigodacarta1);
