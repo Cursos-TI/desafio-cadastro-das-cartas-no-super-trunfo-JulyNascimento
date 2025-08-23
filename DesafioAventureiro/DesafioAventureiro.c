@@ -82,22 +82,22 @@ int main(){
     densidadepopulacional1 = (float) (população1/areaemkm²1);
 
     printf("Qual é a Densidade Populacional 1: \n");
-    scanf("%.2f", &densidadepopulacional1);
+    scanf("%.2f", densidadepopulacional1);
     printf("A densidade populacional1 é: %.2f\n", densidadepopulacional1);
 
     densidadepopulacional2 = (float) (população2/areaemkm²2);
     printf("Qual é a Densidade Populacional 2: \n");
-    scanf("%.2f", &densidadepopulacional2);
+    scanf("%.2f", densidadepopulacional2);
     printf("A densidade populacional2 é: %.2f\n", densidadepopulacional2);
 
     pibpercapita1 = (float) (população1/pib1);
     printf("Qual é a PIB per Capita1: \n");
-    scanf("%.2f", &pibpercapita1);
+    scanf("%.2f", pibpercapita1);
     printf("A PIB per Capita1 é: %.2f\n", pibpercapita1);
 
     pibpercapita2 = (float) (população2/pib2);   
     printf("Qual é a PIB per Capita2: \n");
-    scanf("%.2f", &pibpercapita2);
+    scanf("%.2f", pibpercapita2);
     printf("A PIB per Capita2 é: %.2f\n", pibpercapita2);
 
     return 0;
